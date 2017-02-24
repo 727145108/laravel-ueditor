@@ -33,6 +33,7 @@ class UEditorController extends BaseController
                 break;
             case 'uploadimage':
                 $upConfig = array(
+                    "imageUrlPrefix" => $config['imageUrlPrefix'],
                     "pathFormat" => $config['imagePathFormat'],
                     "maxSize" => $config['imageMaxSize'],
                     "allowFiles" => $config['imageAllowFiles'],
