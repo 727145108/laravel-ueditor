@@ -1,13 +1,13 @@
 {
-  "name": "ender/laravel-ueditor",
-  "description": "A laravel package of ueditor,which is baidu's open source WYSIWYG editor",
-  "keywords": ["laravel","editor","ueditor","WYSIWYG"],
-  "homepage": "https://www.bigfeettrip.com",
+  "name": "crababy/laravel-ueditor",
+  "description": "A laravel package of ueditor,which is baidu's open source editor",
+  "keywords": ["laravel","editor","ueditor","crababy"],
+  "homepage": "https://www.crababy.com",
   "license": "MIT",
   "authors": [
     {
-      "name": "ender",
-      "email": "ender0421@gmail.com"
+      "name": "crababy",
+      "email": "crababy@gmail.com"
     }
   ],
   "require": {
