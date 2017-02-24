@@ -169,7 +169,7 @@ abstract class Upload
     {
         return array(
             "state" => $this->stateInfo,
-            "url" => $this->fullName,
+            "url" => $this->config["imageUrlPrefix"] . $this->fullName,
             "title" => $this->fileName,
             "original" => $this->oriName,
             "type" => $this->fileType,
